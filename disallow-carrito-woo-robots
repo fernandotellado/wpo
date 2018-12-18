@@ -1,0 +1,6 @@
+# Esto va en robots.txt
+User-agent: *
+Disallow: /*add-to-cart=*
+Disallow: /carrito/
+Disallow: /finalizar-compra/
+Disallow: /mi-cuenta/
