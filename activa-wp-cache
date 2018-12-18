@@ -1,0 +1,2 @@
+//Pon esto en wp-config.php
+define( 'ENABLE_CACHE', true );
