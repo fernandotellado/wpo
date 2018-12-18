@@ -1,0 +1,3 @@
+//Pon esto en wp-config.php
+define('WP_ALLOW_REPAIR', true);
+//Luego ve a https://midominio.es/wp-admin/maint/repair.php
