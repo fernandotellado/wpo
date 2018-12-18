@@ -1,0 +1,5 @@
+//Pon esto en tu plugin de funciones
+add_action( 'init', 'stop_heartbeat', 1 );
+function stop_heartbeat() {
+wp_deregister_script('heartbeat');
+}
