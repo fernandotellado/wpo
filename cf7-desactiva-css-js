@@ -1,0 +1,3 @@
+//Pon esto en wp-config.php - desactiva todo el JS y CSS de Contact Form 7
+define ('WPCF7_LOAD_JS', false);
+define ('WPCF7_LOAD_CSS', false); 
