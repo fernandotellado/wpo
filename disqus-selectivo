@@ -1,0 +1,9 @@
+//Pon eston en tu plugin de funciones
+/* Carga disqus solo donde es necesario */
+add_action( 'wp_head', 'ayudawp_disqus_comments' );
+function ayudawp_disqus_comments() { 
+	if ( is_singular( array( 'post', 'page' ) ) && comments_open() )
+		return;
+		remove_action( 'loop_end', 'ayudawp_loop_end' );
+	remove_action( 'wp_footer', 'ayudawp_output_footer_comment_js' ); 
+}
