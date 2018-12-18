@@ -1,0 +1,2 @@
+//Esto en tu wp-config.php
+define('WP_POST_REVISIONS', 5); //En vez de 5 pon false para desactivarlas del todo
