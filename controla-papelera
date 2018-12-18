@@ -1,0 +1,2 @@
+//Pon esto en wp-config.php
+define( 'EMPTY_TRASH_DAYS', 7 ); //Cambia el 7 por los días que quieras
