@@ -1,0 +1,4 @@
+//Pon esto en tu plugin de funciones
+add_action( 'wp_print_styles', function() {
+    if (!is_admin_bar_showing()) wp_deregister_style( 'dashicons' );
+}, 100);
