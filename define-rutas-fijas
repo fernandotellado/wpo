@@ -1,0 +1,6 @@
+
+//Pon esto en wp-config.php
+define('WP_HOME', 'https://ayudawp.com'); //cambia esta url por la tuya, igual en las siguientes líneas
+define('WP_SITEURL', 'https://ayudawp.com');
+define('TEMPLATEPATH', 'https://ayudawp.com/wp-content/themes/nombredemitema');
+define('STYLESHEETPATH', 'https://ayudawp.com/wp-content/themes/nombredemitema');
