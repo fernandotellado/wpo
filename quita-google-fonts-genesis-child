@@ -1,0 +1,6 @@
+//Pon esto en functions.php del tema hijo
+// Quita Google Fonts del tema Genesis Sample
+add_action( 'wp_print_styles', 'ft_dequeue_genesis_fonts_style' );
+function ft_dequeue_genesis_fonts_style() {
+      wp_dequeue_style( 'genesis-sample-fonts' );
+}
