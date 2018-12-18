@@ -1,0 +1,5 @@
+//Pon esto en functions.php del tema hijo
+add_action( 'wp_print_styles', 'ft_dequeue_divi_fonts_style' );
+function ft_dequeue_divi_fonts_style() {
+      wp_dequeue_style( 'divi-fonts' );
+}
