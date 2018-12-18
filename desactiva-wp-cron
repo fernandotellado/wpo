@@ -1,0 +1,4 @@
+//Pon esto en wp-config.php
+define('DISABLE_WP_CRON', true);
+//luego crea un cron real en el panel de tu hosting
+wget -q -O - http://tudominio.es/wp-cron.php?doing_wp_cron >/dev/null 2>&1 //ejemplo de comando al crear el cron real
