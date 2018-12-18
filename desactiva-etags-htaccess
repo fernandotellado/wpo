@@ -1,0 +1,5 @@
+## BEGIN Disable ETag header ##
+Header unset Pragma
+Header unset ETag
+FileETag None
+## END Disable ETag header ##
