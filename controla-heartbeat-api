@@ -1,0 +1,6 @@
+//Pon esto en tu plugin de funciones
+function modificar_heartbeat( $settings ) {
+    $settings['interval'] = 60; //Cambia a algo entre 15-60
+    return $settings;
+}
+add_filter( 'heartbeat_settings', 'modificar_heartbeat' );
