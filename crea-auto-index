@@ -1,0 +1,2 @@
+//Ejecuta este comando SQl en tu BD
+CREATE INDEX autoloadindex ON wp_options(autoload, option_name);
